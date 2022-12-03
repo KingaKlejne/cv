@@ -59,10 +59,13 @@ a:hover {
   line-height: 2.5;
 }
 
+.story-container {
+  background-color: #66BFBF;
+  padding: 130px;
+}
+
 .accordion-container {
-  background-color: #66BFBF;;
   color: #444;
-  padding: 200px;
   width: 100%;
   text-align: center;
   font-size: 15px;
@@ -86,9 +89,7 @@ a:hover {
   padding: 50px 0 20px;
 }
 
-
 /* Texts */
-
 .title-text {
   padding-top: 20px;
 }
@@ -102,7 +103,6 @@ a:hover {
 }
 
 /* Pictures */
-
 .desk {
   width: 80%;
 }
@@ -118,7 +118,6 @@ a:hover {
 }
 
 /* Accordion */
-
 .acc-head {
   color: #66BFBF;
   font-family: "Montserrat", serif;
@@ -126,15 +125,14 @@ a:hover {
   font-weight: normal;
   text-align: center;
   padding-bottom: 10px;
-
 }
+
 .accordion-button:not(.collapsed) {
   background-color: #E4F9F5;
   color: #66BFBF;
 }
 
 /* Carousel */
-
 .carousel-control-prev-icon {
   margin-right: 150px;
 }
@@ -144,22 +142,20 @@ a:hover {
 }
 
 .carousel-indicators {
-  bottom:-100px;
+  bottom: -100px;
 }
 
-.carousel-item{
+.carousel-item {
   padding: 100px;
   line-height: 2.5;
 }
 
 /* Bottom Section */
-
-
 .contact-message {
   width: 40%;
   margin: 20px auto 160px;
-
 }
+
 .copyright {
   color: #EAF6F6;
   font-size: 0.75rem;
