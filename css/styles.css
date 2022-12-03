@@ -41,66 +41,119 @@ a:hover {
   color: #EAF6F6;
 }
 
+/* Containers */
 .top-containter {
-  margin-top: 0;
   background-color: #E4F9F5;
   position: relative;
   padding-top: 10px;
+}
+
+.middle-container {
+  padding: 20px, 0px;
+}
+
+.profile-container {
+  width: 70%;
+  margin: 150px auto;
+  text-align: justify;
+  line-height: 2.5;
+}
+
+.accordion-container {
+  background-color: #66BFBF;;
+  color: #444;
+  padding: 200px;
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  transition: 0.4s;
+  font-family: "Merriweather", serif;
+  line-height: 2;
+}
+
+.skills-container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.contact-me-container {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+
+/* Texts */
+
+.title-text {
+  padding-top: 20px;
 }
 
 .pro {
   text-decoration: underline;
 }
 
+.carousel-top-text {
+  padding-bottom: 100px;
+}
+
+/* Pictures */
+
 .desk {
-  width: 60%;
+  width: 80%;
 }
 
-.profile {
-  width: 50%;
-  margin: 50px auto;
-  text-align: justify;
-  line-height: 2;
-}
-
-.picture {
-  width: 200px;
-  height: 200px;
+.my-photo {
+  width: 40%;
   float: right;
   padding: 0 30px;
 }
 
-.skill-row {
+.skill_job, .skill_other {
   width: 50%;
-  margin: 50px auto;
-  text-align: justify;
-  line-height: 2;
 }
 
-.skill_python {
-  width: 25%;
-  height: 25%;
-  float: left;
-  padding: 30px;
+/* Accordion */
+
+.acc-head {
+  color: #66BFBF;
+  font-family: "Montserrat", serif;
+  font-size: 1.25rem;
+  font-weight: normal;
+  text-align: center;
+  padding-bottom: 10px;
+
+}
+.accordion-button:not(.collapsed) {
+  background-color: #E4F9F5;
+  color: #66BFBF;
 }
 
-.skill_job {
-  width: 15%;
-  margin: auto 2.25%;
+/* Carousel */
+
+.carousel-control-prev-icon {
+  margin-right: 150px;
 }
 
-.skill_other {
-  width: 15%;
-  padding: 4%;
-  position: relative;
-  bottom: 30px;
+.carousel-control-next-icon {
+  margin-right: -150px;
 }
 
-
-.bottom-container {
-  background-color: #66BFBF;
-  padding: 50px 0 20px;
+.carousel-indicators {
+  bottom:-100px;
 }
+
+.carousel-item{
+  padding: 100px;
+  line-height: 2.5;
+}
+
+/* Bottom Section */
+
 
 .contact-message {
   width: 40%;

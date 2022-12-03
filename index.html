@@ -4,14 +4,24 @@
 <head>
   <meta charset="utf-8">
   <title>Kinga Klejne</title>
+  <!-- Bootstrap Scripts -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+  <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="css/styles.css">
+  <!-- favicon -->
   <link rel="icon" href="favicon.ico">
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
+
+  <!-- Top section -->
   <div class="top-containter">
     <div class="title-text">
       <h1>I'm Kinga.</h1>
@@ -20,50 +30,174 @@
     <img class="desk" src="images/desk.png" alt="desk-img">
   </div>
 
+  <!-- About me -->
   <div class="middle-container">
-    <div class="profile">
+    <div class="profile-container">
       <h2>Hello.</h2>
-      <img class="picture" src="images/IMG_1498.png" alt="Kinga profile picture">
-      <p>I work as Data Analyst with almost 1 year of professional experience with Python and SQL.
-        I really like to learn new things and programming became one of my passions.
-        I am highly motivated to advance and expand skillset through targeted
-        mentorship and challenging projects.
-        Therefore, I am looking for opportunity to become Python Developer.
+      <img class="my-photo" src="images/IMG_1498.png" alt="Kinga profile picture">
+      <p>I am an Analyst for almost 5 years and I am looking for a job closely
+        related to Python. If possible, as <b>Junior Python Developer</b>.
+        I would like to work in an environment where I can be taught by people more
+        advanced than me and receive regular feedback. I am a fast learner with
+        high eager and motivation to learn. However, skills which are not used
+        can be simply forgotten and I would like to avoid that.
+        I spend a lot of free time expanding my knowledge and I would never
+        be able to learn that much on myself as I could do at the regular job.
+        Not only because of less time spend on advanced tasks, but also
+        because nobody could give me a significant opinion.
+        Nevertheless, I think I am quite good at demanding assignments,
+        even if I do not have a sufficient background. I am always trying to
+        find solution and in most cases I do. Not only using Stack Overflow
+        and similar pages, but also by reading documentation and analyzing what
+        can be done and how. I rather ask questions "How to do ..." instead of
+        "Is it possible to do...". I am mostly a self learner, hence I know
+        I lack of professional experience and this is what I am looking for.
       </p>
     </div>
 
-    <hr>
-    <div class="skills">
+    <!-- Accordion Section -->
+    <div class="accordion accordion-flush accordion-container" id="accordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button collapsed acc-head" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
+            My Story
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            I studied on the University of Science and Technology. I became a
+            transport student after many years of humanistic education. I was
+            part of theater group, writing for school paper and all of the way
+            expanding myself in the area totally opposite to science. I wanted
+            to be a journalist, maybe psychologist definitely not Data Analyst
+            not even a programmer. That time I didn't even know that something
+            like Python exists. Unfortunately, but maybe luckily it was not easy
+            to get accepted for fields I saw my future that time. So at the last
+            year of my High School Education I started thinking about other
+            directions and I reevaluated my needs. I noticed maths isn't so
+            hard after all and it could be good to become an engineer maybe.
+            I wrote my thesis about possibility of obtaining fuel from waste
+            plastics and I became excited to create machine for this purpose,
+            hence I changed direction into Mechanics and Machine Building
+            (there was also no continuation for my engineer field that time).
+            While studying I became more interested in exploitation and risks,
+            so I changed my path again and chose master thesis related to that
+            topic.
+            <br>
+            <br>
+            During my University education I was also working at different places,
+            such as grocery shop, department store with kitchen appliances and
+            as a coffee machine seller. Once I started to have less classes
+            during day time (I was on full time studies) I started thinking
+            about some serious job for the first time. I didn't know what I
+            would like to do that time. After a few years of studies I knew that
+            what I liked the most was data management, preparing reports and doing
+            some projects. I sent my resume to 2 or 3 places and that is how my
+            professional journey has started.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed acc-head" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            Why Python?
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            Once I started my first serious job I understood processes really
+            quickly. After a few months I already took part in first automation
+            related to RPA. I was testing the solution, creating some SOP and
+            presentations. It was something that got me really interested.
+            So I didn't stop there. Along with my colleagues created a new
+            solution to our process. It took one year to succeed and it was
+            worth it. I learned a lot, but still I wasn't doing anything on
+            my own. It was VBA related solution, so I started digging, took
+            some Udemy classes to learn VBA, but it was not enough for me. 
+            I wanted to do more. More advanced, more challenging. I did some
+            research about programming languages and my choice came to Python.
+            First, I tried to learn on my own. But I started thinking, what if
+            I will learn bad practices? I read some articles about clean code,
+            PEP 8 and stuff like that and I knew I wanted to do it well. It was
+            my first programming language after all, so I started
+            Data Science Bootcamp.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- My skills section -->
+    <div class="skills-container">
       <h2>My Skills:</h2>
-      <div class="skill-row">
-        <img class="skill_python" src="images/Python.png" alt="skill_python">
 
-        <h3>Python</h3>
-        <p>I started learning Python after a few automation projects at my previous jobs. Python unfortunately was not involved in those automations, however I became very intersted in programming and after some research my choice came to this
-          language as my first one and I think I couldn't get any better as I loved it from the beggining. Now, I can spend hours exploring, thinking how to solve some issues or maybe how to make my code simpler/shorter and so on. At my current job I
-          have the opportunity to use it for data analysis and validations and beside that I am also trying to write some games/applications in my free time to develop myself more in this area. </p>
+      <div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h3 class="carousel-top-text">Skills I am using at my job:</h3>
+            <div class="row">
+              <div class="col-lg-2">
+                <img class="skill_job" src="images/alteryx.png" alt="skill_alteryx">
+                <p>Alteryx</p>
+              </div>
+              <div class="col-lg-2">
+                <img class="skill_job" src="images/Python.png" alt="skill_python">
+                <p>Python</p>
+              </div>
+              <div class="col-lg-2">
+                <img class="skill_job" src="images/sql.png" alt="skill_sql">
+                <p>PL/SQL</p>
+              </div>
+              <div class="col-lg-2">
+                <img class="skill_job" src="images/tableau.png" alt="skill_tableau">
+                <p>Tableau</p>
+              </div>
+              <div class="col-lg-2">
+                <img class="skill_job" src="images/jira.png" alt="skill_jira">
+                <p>Jira</p>
+              </div>
+              <div class="col-lg-2">
+                <img class="skill_job" src="images/git.png" alt="skill_git">
+                <p>GIT</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <h3 class="carousel-top-text">Other skills (Basic level):</h3>
+            <div class="row">
+              <div class="col-lg-3">
+                <img class="skill_other" src="images/html.png" alt="skill_html">
+              </div>
+              <div class="col-lg-3">
+                <img class="skill_other" src="images/css.png" alt="skill_css">
+              </div>
+              <div class="col-lg-3">
+                <img class="skill_other" src="images/ml.png" alt="skill_ml">
+              </div>
+              <div class="col-lg-3">
+                <img class="skill_other" src="images/dl.png" alt="skill_dl">
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-
-      <h3>Skills I am using at my job:</h3>
-      <div class="skill-row">
-        <img class="skill_job" src="images/sql.png" alt="skill_sql">
-        <img class="skill_job" src="images/jira.png" alt="skill_jira">
-        <img class="skill_job" src="images/git.png" alt="skill_git">
-        <img class="skill_job" src="images/tableau.png" alt="skill_tableau">
-        <img class="skill_job" src="images/alteryx.png" alt="skill_alteryx">
-      </div>
-
-      <h3>Other skills (Basic level):</h3>
-      <div class="skill-row">
-        <img class="skill_other" src="images/html.png" alt="skill_html">
-        <img class="skill_other" src="images/css.png" alt="skill_css">
-        <img class="skill_other" src="images/ml.png" alt="skill_ml">
-        <img class="skill_other" src="images/dl.png" alt="skill_dl">
-      </div>
+    </div>
   </div>
 
-  <hr>
-  <div class="contact-me">
+  <!-- Contact form -->
+  <div class="contact-me-container">
     <h2>Get In Touch</h2>
     <p class="contact-message">I'll be happy to take a position as a Junior Python Developer or find a mentor who would help me develop my skills.</p>
     <a class="btn" href="mailto:kingaklejne@email.com">CONTACT ME</a>
