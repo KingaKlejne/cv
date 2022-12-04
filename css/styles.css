@@ -67,7 +67,7 @@ a:hover {
 .accordion-container {
   color: #444;
   width: 100%;
-  text-align: center;
+  text-align: justify;
   font-size: 15px;
   transition: 0.4s;
   font-family: "Merriweather", serif;
